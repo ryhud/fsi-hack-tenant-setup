@@ -1,0 +1,7 @@
+﻿displayName,userPrincipalname,passwordProfile,accountEnabled,givenName,surname,Job title [jobTitle],Department [department],Usage location [usageLocation],Street address [streetAddress],State or province [state],Country or region [country],Office [physicalDeliveryOfficeName],City [city],ZIP or postal code [postalCode],Office phone [telephoneNumber],Mobile phone [mobile]
+user1,user1@mydomain.onmicrosoft.com,myPassword1234, No,User,1,,,,,,,,,,,
+user2,user2@mydomain.onmicrosoft.com,myPassword1235, No,User,2,,,,,,,,,,,
+user3,user3@mydomain.onmicrosoft.com,myPassword1236, No,User,3,,,,,,,,,,,
+user4,user4@mydomain.onmicrosoft.com,myPassword1237, No,User,4,,,,,,,,,,,
+user5,user5@mydomain.onmicrosoft.com,myPassword1238, No,User,5,,,,,,,,,,,
+user6,user6@mydomain.onmicrosoft.com,myPassword1239, No,User,6,,,,,,,,,,,
