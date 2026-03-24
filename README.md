@@ -4,7 +4,7 @@ This repository includes artifacts that are to be used to load some users into a
 
 ### Prerequisites
 * A new MCAPS subscription configured with an external tenant with Global Admin Credentials.
-* A Windows Desktop for interactive login (Device login is bloced for MCAPS environment).
+* A Windows Desktop for interactive login (Device login is blocked for MCAPS environment).
 * [PowerShell 7](https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell-on-windows?view=powershell-7.5) Installed
 * Latest MS Graph [PowerShell SDK](https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation). Verify Installation first. If installed, upgrade. If not installed, Install the module. All instructions in the link.
 * Git for Windows if you want to clone this repository.
@@ -15,8 +15,9 @@ This repository includes artifacts that are to be used to load some users into a
 
 ### Modify the Users CSV
 
-    * Open up the UserCreateTemplate.csv and replace the UPN suffixes of the userPrincipalName values with the domain name of your tenant (e.g mydomain.onmicrosoft.com).
-    * (Optional) - create your own passwordProfile values (password change will be forced anyway).
+* Open up the UserCreateTemplate.csv and replace the UPN suffixes of the userPrincipalName values with the domain name of your tenant (e.g mydomain.onmicrosoft.com).
+* (Optional) - create your own passwordProfile values (password change will be forced anyway).
+* If your team has more than 6 people, please add additional row/s to the csv. 
 
 ### Provisioning the users
 
@@ -53,7 +54,7 @@ This repository includes artifacts that are to be used to load some users into a
 
     Copy the output as we will need it for the next step. 
 
-7. Allocate each team member to a user account and provde them the userPrincipalName and Password from the CSV file along the Temporary Access Pass generated earlier. 
+7. Allocate each team member to a user account and provide them the userPrincipalName and Password from the CSV file along the Temporary Access Pass generated earlier. 
 
 ### Have each hack team member finish setting up their user accounts. 
 
