@@ -62,7 +62,7 @@ NOTE: The order of these steps is very important to properly set up the account.
 
 1. Open up a new InPrivate window and Sign into https://aka.ms/mysecurityinfo. Enter the username and Temporary Access Pass.
 
-    ![image](/images/signinWithTap.jpg)
+    ![image](/images/signInWithTap.jpg)
 
 2. Select Security Info on the left pane and then "+ Add sign-in method". Configure "Microsoft Authenticator".
 
